@@ -4,8 +4,8 @@
 //random letter from my name Emmanuel
 
 const myName = "Emmanuel";
-
-const randomNumber = Math.floor(Math.random() * 8);
+const myNamelenght = myName.length;
+const randomNumber = Math.floor(Math.random() * myNamelenght);
 const charatMyname = myName.charAt(randomNumber);
 
 console.log(charatMyname);
