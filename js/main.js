@@ -5,7 +5,7 @@
 
 const myName = "Emmanuel";
 
-const randomNumber = Math.floor(Math.random() * 8 + 1);
+const randomNumber = Math.floor(Math.random() * 8);
 const charatMyname = myName.charAt(randomNumber);
 
 console.log(charatMyname);
